@@ -1,0 +1,28 @@
+SENA - Análisis y Desarrollo de Software (ADSO)
+Evidencia: GA7-220501096-AA3-EV01. Codificación de módulos del software stand-alone, web y
+móvil.
+
+
+Aprendiz: Thairuma Salcedo
+Enlace del Repositorio en GitHub: https://github.com/thairumazsp-jpg/BurgerParadiseWeb.git
+
+1. SELECCIÓN DE FRAMEWORK: Se aplicó un patrón arquitectónico estructurado
+   Front Controller MVC corporativo para desacoplar vistas y persistencia.
+2. ALMACENAMIENTO DE DATOS: Integración completa de persistencia mediante
+   Driver MySQL Connector J en arquitectura desacoplada Repository.
+3. ESTÁNDAR Y COMENTARIOS: Uso del estándar oficial Java Code Conventions
+   (CamelCase) y comentarios documentativos multilínea Javadoc en todas las clases.
+
+EVIDENCIAS VISUALES DE FUNCIONAMIENTO (ADJUNTAS)
+
+Para facilitar su revisión y debido a las 
+configuraciones de puertos locales en la base de datos (Puerto 3307), 
+he adjuntado capturas de pantalla reales del sistema en ejecución dentro 
+de este paquete ZIP: e interactividad mediante elementos JSP y Servlets de manera integrada.
+
+CASOS DE PRUEBA REALIZADOS
+
+• CP-01: Verificación de Estándar de Codificación y Compilación.
+  - Resultado: EXITOSO. Cero errores de sintaxis, encapsulamiento correcto.
+• CP-02: Almacenamiento Persistente mediante Repositorio Web.
+  - Resultado: EXITOSO. El sistema inserta datos de hamburguesas de manera limpia.
